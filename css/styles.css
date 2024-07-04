@@ -118,8 +118,8 @@ img {
 
 .hero {
   background-color: #2e2f42;
-  padding-top: 156px;
-  padding-bottom: 220px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-title {
   font-size: 56px;
@@ -143,6 +143,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -222,7 +225,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .team-container-card-profession {
   text-align: center;
@@ -272,7 +275,7 @@ img {
 
 footer {
   background-color: #2e2f42;
-  padding: 100px 156px;
+  padding: 100px 0px;
 }
 .foot-logo {
   display: inline-block;
@@ -284,7 +287,7 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 .foot-logo-separator {
   color: #f4f4fd;
