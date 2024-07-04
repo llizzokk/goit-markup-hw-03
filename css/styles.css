@@ -188,6 +188,8 @@ img {
   color: #434455;
 }
 
+/* team */
+
 .team-container {
   background-color: #f4f4fd;
 }
@@ -198,26 +200,40 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .team-container-list {
+  display: flex;
+  gap: 24px;
   list-style-type: none;
 }
 .team-container-card {
+  border-radius: 0 0 4px 4px;
+  width: calc((100% - 72px) / 4);
   background-color: #fff;
 }
+.team-container-card-text {
+  padding: 32px 0;
+}
 .team-container-card-name {
+  text-align: center;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-bottom: 8px;
 }
 .team-container-card-profession {
+  text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/* portfolio */
+
 .portfolio-container-title {
   text-transform: capitalize;
   font-size: 36px;
@@ -225,9 +241,17 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .portfolio-container-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
   list-style-type: none;
+}
+.portfolio-container-list-item-text {
+  padding: 32px 16px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .portfolio-container-name {
   font-weight: 500;
@@ -235,6 +259,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .portfolio-container-text {
   font-size: 16px;
@@ -242,10 +267,15 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/* footer */
+
 footer {
   background-color: #2e2f42;
+  padding: 100px 156px;
 }
 .foot-logo {
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
   font-weight: 700;
@@ -254,6 +284,7 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding-bottom: 16px;
 }
 .foot-logo-separator {
   color: #f4f4fd;
@@ -263,4 +294,5 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  width: 264px;
 }
